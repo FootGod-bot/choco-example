@@ -1,0 +1,7 @@
+{
+  "app name": "MyApp",
+  "zip name": "choco.zip",
+  "Main Path": "test.txt",
+  "startup": true,
+  "start menu": true
+}
