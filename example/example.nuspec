@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MyApp</id>
+    <version>1.0.0</version>
+    <title>MyApp</title>
+    <authors>FootGod-Bot</authors>
+    <owners>FootGod-Bot</owners>
+    <description>Installs MyApp from ZIP with Start Menu and Startup shortcuts.</description>
+    <releaseNotes>Initial release with auto shortcut creation.</releaseNotes>
+    <tags>MyApp installer choco</tags>
+    <projectUrl>https://example.com</projectUrl>
+    <licenseUrl>https://example.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
